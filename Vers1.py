@@ -9,9 +9,9 @@ Original file is located at
 # #Wheather  modelling using the Quadratic Equation
 """
 
-a = 5
-b = 4
-c = 6
-x = 4.5
+a = float(input('a='))
+b = float(input('b='))
+c = float(input('c='))
+x = float(input('x='))
 y = a*x*x+b*x+c
-print('The value of y is ' ,y)
+print('The value of y is ',y)
